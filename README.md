@@ -1,9 +1,3 @@
-# WebdriverIO Test Suite for <https://www.saucedemo.com/>
-
-## Description
-
-This project contains automated tests for the login functionality of the website [https://www.saucedemo.com/](https://www.saucedemo.com/).
-
 The tests cover the following use cases:
 
 - **UC-1:** Login with empty username and password  
@@ -69,8 +63,3 @@ Tests are executed in parallel on:
 - ✅ **Microsoft Edge**
 
 Configured in `wdio.conf.js` using `capabilities`.
-
-## Known Issues
-
-- Logger is not compatible with WebdriverIO v8.15 – `console.log` is used instead.
-- XPath selectors are used as required by task (although CSS selectors or `data-testid` may be more stable).
